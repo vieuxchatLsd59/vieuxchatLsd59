@@ -152,17 +152,6 @@ code : il y a le câblage, le pont filaire soudé sur `DIO1`, le pont d'alimenta
 de la radio, et un payload qui doit tenir dans quelques octets pour respecter le
 duty cycle LoRaWAN.
 
-## `statistiques`
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vieuxchatLsd59&show_icons=true&theme=greenhack&hide_border=true" alt="Stats GitHub de vieuxchatLsd59" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=vieuxchatLsd59&theme=greenhack&hide_border=true" alt="Streak de commits" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vieuxchatLsd59&layout=compact&theme=greenhack&hide_border=true" alt="Langages les plus utilisés" />
-</p>
-
 ## `contact`
 
 | | |
