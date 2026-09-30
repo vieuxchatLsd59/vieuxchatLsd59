@@ -37,9 +37,7 @@
 
 [Mon portfolio](https://vieuxchatlsd59.github.io/) ·
 [GitHub](https://github.com/vieuxchatLsd59) ·
-[LinkedIn](https://www.linkedin.com/in/ismaelberrazzag) ·
-[Email](mailto:ismaelberrazzag@gmail.com) ·
-[Discord](https://discord.com/) `@vieuxchatlsd`
+[LinkedIn](https://www.linkedin.com/in/ismaelberrazzag)
 
 </div>
 
@@ -55,7 +53,7 @@ Salut, moi c'est **Ismael Berrazzag** 👋
 - 🎯 Chaque notion apprise est mise en pratique dans un projet réel, de bout en bout.
 - ⚡ J'aime le temps réel : canvas, physique de particules, animations au `requestAnimationFrame`.
 - 🛠️ Tout est écrit à la main : **0 dépendance npm, 0 build, 0 image**.
-- 📫 Ouvert à toute collaboration : **ismaelberrazzag@gmail.com**
+- 📫 Ouvert à toute collaboration, Passer par LinkedIn ou GitHub.
 
 ```text
 $ whoami
@@ -169,10 +167,8 @@ duty cycle LoRaWAN.
 
 | | |
 |---|---|
-| 📧 Email | [ismaelberrazzag@gmail.com](mailto:ismaelberrazzag@gmail.com) |
 | 💻 GitHub | [github.com/vieuxchatLsd59](https://github.com/vieuxchatLsd59) |
 | 💼 LinkedIn | [linkedin.com/in/ismaelberrazzag](https://www.linkedin.com/in/ismaelberrazzag) |
-| 🎮 Discord | [@vieuxchatlsd](https://discord.com/) |
 | 🏴 TryHackMe | en cours de constitution du profil |
 | 🟢 Statut | disponible pour un projet |
 
@@ -187,9 +183,7 @@ réponse sous 48 h — probablement avec du café à côté du clavier
 
 **[Ismael Berrazzag](https://github.com/vieuxchatLsd59)** — portfolio one-page :
 [voir le site](https://vieuxchatlsd59.github.io/) ·
-[LinkedIn](https://www.linkedin.com/in/ismaelberrazzag) ·
-[Email](mailto:ismaelberrazzag@gmail.com) ·
-Discord `@vieuxchatlsd`
+[LinkedIn](https://www.linkedin.com/in/ismaelberrazzag)
 
 `fermé le 2>&1 | return 0`
 
