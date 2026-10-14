@@ -59,7 +59,7 @@ Salut, moi c'est **Ismael Berrazzag** 👋
 $ whoami
 ismaelberrazzag — dev front-end & embarqué
 $ ls projets
-PARTICULA   KITERIDER   PROJET_03
+PARCOURS_IA   KITERIDER   PARTICULA   TP_AUDIT_INFRA
 $ cat ~/stack
 HTML · CSS · JavaScript · Canvas 2D · C++ · ESP32 · LoRaWAN · Git
 ```
@@ -123,16 +123,53 @@ station météo →  [ss tt]  vitesse × 10  (2 o)
 - Sprites mis en cache par teinte, boucle `requestAnimationFrame` unique
 - `prefers-reduced-motion` respecté · responsive 320 px → 4K
 
-### ⚫ PROJET_03 — emplacement réservé
+### 🟠 PARCOURS IA — formation à l'IA façon TryHackMe
 
-> Le prochain projet n'apparaît que lorsqu'il est terminé.
+[![HTML](https://img.shields.io/badge/HTML-000?logo=html5&logoColor=orange&style=flat-square)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-000?logo=css3&logoColor=blue&style=flat-square)](https://developer.mozilla.org/docs/Web/CSS)
+[![JS](https://img.shields.io/badge/JS-000?logo=javascript&logoColor=yellow&style=flat-square)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![Claude](https://img.shields.io/badge/Claude_Code-000?logo=anthropic&logoColor=white&style=flat-square)](https://claude.com/claude-code)
+
+> Une plateforme pour apprendre l'IA **en faisant**, pas en regardant des vidéos :
+> des salles interactives guidées par **Nova**, une mascotte robot en sweat à capuche.
+> Pensée pour les étudiants et pour les **PME** qui doivent former leurs équipes (AI Act, article 4).
+
+- **4 salles** sur 2 parcours : *Découverte* (installer Claude Code, créer et publier son site) et *Entreprise* (dangers de l'IA au travail, bons usages au quotidien)
+- **6 types d'exercices** : QCM, tri, remise en ordre, réponse libre tolérante aux fautes, *flag* à récupérer dans le terminal, simulation d'arnaque où l'on clique sur les indices
+- **Gamification** : points, séries sans faute, 4 badges par salle, indices payants, tableau de bord de progression
+- **Attestation** de fin de salle générée dans le navigateur (canvas), récapitulatif et fiche mémo
+- Bannières et Nova en **SVG animé**, intro dialoguée, confettis, bruitages Web Audio, `prefers-reduced-motion` respecté
+- Moteur de salles commun, salles générées depuis un modèle, **tests automatisés** qui jouent chaque salle de bout en bout (jsdom)
+- Vidéo de présentation en **motion design** (GSAP), rendue en MP4 image par image avec Chrome headless + ffmpeg, voix off et bruitages synthétisés
+
+```text
+salle E1 · simulation      De : Marc Lefèvre, DG <dg@groupe-direction-fr.co>   ← indice 1/5
+                           Objet : URGENT – Virement avant 17 h                  ← indice 2/5
+                           « n'en parle à personne »                             ← indice 3/5
+                           [ ⚠ FRAUDE DÉMASQUÉE ]  +30 pts · badge Vigilance IA
+```
+
+> Démo privée sur demande — en cours de test auprès de premières entreprises.
+
+### 🔵 TP AUDIT D'INFRASTRUCTURE — kit pédagogique cybersécurité
+
+[![Docker](https://img.shields.io/badge/Docker-000?logo=docker&logoColor=2496ED&style=flat-square)](https://www.docker.com/)
+[![Nmap](https://img.shields.io/badge/Nmap-000?logo=gnu-bash&logoColor=white&style=flat-square)](https://nmap.org/)
+
+> Un réseau d'entreprise fictif (« LogiNord ») que des étudiants en cybersécurité découvrent,
+> cartographient et évaluent pendant 2 jours.
+
+- Lab **Docker de 18 hôtes** simulés, avec leurs services
+- Scans **Nmap**, inventaire à compléter, cartographie physique et logique
+- Énoncé et démonstration en ligne : **[voir le kit](https://vieuxchatlsd59.github.io/tp-audit-infrastructure/)** · [dépôt](https://github.com/vieuxchatLsd59/tp-audit-infrastructure)
 
 ## `parcours`
 
 ```text
 [ début ]       Découverte du web   →  premier HTML, premier <style>
 [ en cours ]    TryHackMe           →  HTML & CSS : box model, flex, grid, responsive
-[ maintenant ]  Projets complets    →  KiteRider (LoRaWAN), PARTICULA (canvas)
+[ réalisé ]     Projets complets    →  KiteRider (LoRaWAN), PARTICULA (canvas), TP audit (Docker)
+[ maintenant ]  IA & pédagogie      →  Parcours IA : formation interactive, Claude Code
 [ ensuite ]     WebGL / TS / low power
 ```
 
@@ -177,13 +214,3 @@ réponse sous 48 h — probablement avec du café à côté du clavier
 `fermé le 2>&1 | return 0`
 
 </div>
-
----
-
-> ⚠️ **À personnaliser :**
-> 1. Portfolio publié sur `https://vieuxchatlsd59.github.io/` — les liens du README
->    pointent déjà vers la bonne adresse. ✅
-> 2. Ajoute le lien de ton profil TryHackMe quand il existe (actuellement :
->    la page d'accueil est liée à la place).
-> 3. Si tu publies le code de KiteRider, **régénère les clés LoRaWAN**
->    (`DEVEUI` / `APPEUI` / `APPKEY`) et ne commite jamais les vraies.
